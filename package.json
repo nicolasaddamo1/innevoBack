@@ -1,0 +1,20 @@
+{
+  "name": "innevoback",
+  "version": "1.0.0",
+  "description": "Back para proyecto identificador de frutas\r Este proyecto ofrece el backend para una aplicacion que debe escanear las frutas y, a través de una API devolver un determinado resultado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
