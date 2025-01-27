@@ -4,6 +4,8 @@
   "description": "Back para proyecto identificador de frutas\r Este proyecto ofrece el backend para una aplicacion que debe escanear las frutas y, a través de una API devolver un determinado resultado.",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon dist/index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
