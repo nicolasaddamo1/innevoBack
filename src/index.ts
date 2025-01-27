@@ -1,7 +1,11 @@
 import  express  from "express";
+import indexRoutes from "./routes/index";
 
 const app = express();
-app.listen(3000, () => {
-        console.log("Server running on port 3000");
+const port = 3000;
+app.use(indexRoutes);
+
+app.listen(port, () => {
+        console.log("Server running on port", port);
     }
 );
