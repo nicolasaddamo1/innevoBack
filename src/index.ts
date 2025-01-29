@@ -3,7 +3,7 @@ import indexRoutes from "./routes/index";
 import cors from "cors";
 
 const corsOptions = {
-    origin: ['http://localhost:8001',], // Allow requests only from this origin
+    origin: ['http://localhost:8081', 'http://localhost:4200'], // Allow requests only from this origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Allow cookies, if your application uses them
     optionsSuccessStatus: 204, // Some legacy browsers (IE11) choke on 204
