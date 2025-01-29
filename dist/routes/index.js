@@ -40,7 +40,6 @@ router.get('/test', (req, res) => {
     res.send('Mensaje desde el BACK');
 }, router.post('/image', ImageSaver_1.default.single('file'), (req, res) => {
     (0, ImageSaver_1.saveImage)(req.file);
-    console.log(req.file);
-    res.send('Imagen subida correctamente.');
+    res.status(200).send('Imagen subida correctamente.');
 }));
 exports.default = router;
